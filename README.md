@@ -1,37 +1,38 @@
-[![CI](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml)
-## Template for Python projects with RUFF linter
-
-![1 15_rust_built_python_tools](https://github.com/nogibjj/python-ruff-template/assets/58792/db5f7bda-a977-4c67-acbe-a70fe034fbdf)
 
 
+# Individual Project - LA Job Applicant Data Analysis 
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
+## Youtube video: 
 
-Things included are:
 
-* `Makefile`
 
-* `Pytest`
+## Project Introduction
+The main purpose of this project is to use data science tools such as Pandas and Polars to analyze the job application data in City of LA, by gender and ethnicity, including generating summary statistics and visualization chart.
 
-* `pandas`
+## Project Data Source
+The data used in this analysis comes from a dataset published by data.lacity.org on Data.Gov website, with the data version as of September 15, 2023. You can find more information about data source via link here: https://catalog.data.gov/dataset/job-applicants-by-gender-and-ethnicity 
 
-* `Ruff`:  
+## Continuous Integration
+This project uses GitHub Actions for continuous integration, automatically running the following checks:
+- Formatting code with Black
+- Linting code with Ruff
+- Installing dependencies
+- Running all tests (script, notebook, and library)
 
-Run `make lint` which runs `ruff check`.  You can find out more info on [Ruff here](https://github.com/astral-sh/ruff).
+## Statistics Summary 
+![alt text](image-2.png)
 
-* `Dockerfile`
+## Data Visualizations
+![alt text](image.png)
 
-* `GitHub copilot`
+![alt text](image-1.png)
 
-* `jupyter` and `ipython` 
-
-* A base set of libraries for devops and web
-
-* `githubactions`
+## Conclusion
+- There is a notable gender imbalance, with male applicants outnumbering female applicants by a considerable margin.
+- Ethnicity distribution shows Hispanic and Black applicants as the largest groups, with significant representation from Caucasian applicants as well. Other ethnic groups have much smaller representation.
+- These findings suggest potential areas for our future investigation, such as understanding the factors contributing to the gender imbalance in applicants, exploring ways to increase diversity in the applicant pool, etc.
 
 ## References
-
-![1 1-function-essence-of-programming](https://github.com/nogibjj/python-ruff-template/assets/58792/f7f33cd3-cff5-4014-98ea-09b6a29c7557)
-
+https://github.com/nogibjj/python-ruff-template
 
 
