@@ -1,3 +1,7 @@
+[![Install](https://github.com/Jenniferli6/Jennifer_Individual_Project_1/actions/workflows/install.yml/badge.svg)](https://github.com/Jenniferli6/Jennifer_Individual_Project_1/actions/workflows/install.yml)
+[![Format](https://github.com/Jenniferli6/Jennifer_Individual_Project_1/actions/workflows/format.yml/badge.svg)](https://github.com/Jenniferli6/Jennifer_Individual_Project_1/actions/workflows/format.yml)
+[![Lint](https://github.com/Jenniferli6/Jennifer_Individual_Project_1/actions/workflows/lint.yml/badge.svg)](https://github.com/Jenniferli6/Jennifer_Individual_Project_1/actions/workflows/lint.yml)
+[![Test](https://github.com/Jenniferli6/Jennifer_Individual_Project_1/actions/workflows/test.yml/badge.svg)](https://github.com/Jenniferli6/Jennifer_Individual_Project_1/actions/workflows/test.yml)
 
 
 # Individual Project - LA Job Applicant Data Analysis 
