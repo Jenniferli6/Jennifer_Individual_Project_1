@@ -5,7 +5,6 @@ from mylib.lib import (
     grab_std,
     grab_min,
     grab_max,
-    total_applicants,
 )
 import pandas as pd
 
